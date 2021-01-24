@@ -12,7 +12,6 @@ public class StackTryExceptions {
             System.out.println(stack.pop().toString());
             stack.push("3");
             stack.push("4");
-            System.out.println(stack.pop().toString());
             stack.push("5");
             stack.push("6");
             stack.push("7");
