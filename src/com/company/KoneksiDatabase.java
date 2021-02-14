@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
  * @author jinggasaka
  */
 
-public class Db_Connect {
+public class KoneksiDatabase {
     private static Connection conn;
     public static Connection getKoneksi( ){
         String host = "jdbc:mysql://localhost/ebookshop",
